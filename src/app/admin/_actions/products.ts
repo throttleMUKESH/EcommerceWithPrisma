@@ -46,8 +46,8 @@ export async function addProduct(prevState: unknown, formData: FormData) {
         imagePath,
       },
     })
-    revalidatePath("/")
-    revalidatePath("/products")
+    // revalidatePath("/")
+    // revalidatePath("/products")
   
     redirect("/admin/products")
   }
